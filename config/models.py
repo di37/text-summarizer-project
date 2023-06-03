@@ -10,3 +10,8 @@ class DataIngestionConfig(BaseModel):
     source_URL: str
     local_data_file: Path
     unzip_dir: Path
+
+class DataValidationConfig(BaseModel):
+    root_dir: Path
+    STATUS_FILE: str
+    ALL_REQUIRED_FILES: List[str]

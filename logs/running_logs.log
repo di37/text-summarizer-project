@@ -72,3 +72,387 @@ Source-Age: 1
 
 ]
 [2023-06-04 01:19:08,742: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<]
+[2023-06-04 01:30:20,237: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 01:30:20,239: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 01:30:20,240: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 01:30:20,240: INFO: helper: created directory at: databox]
+[2023-06-04 01:30:20,241: INFO: helper: created directory at: databox/data_ingestion]
+[2023-06-04 01:30:20,241: INFO: helper: File already exists of size: ~ 7718 KB]
+[2023-06-04 01:30:20,348: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<]
+[2023-06-04 01:42:05,157: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 01:42:05,159: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 01:42:05,160: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 01:42:05,160: INFO: helper: created directory at: databox]
+[2023-06-04 01:42:05,161: INFO: helper: created directory at: databox/data_ingestion]
+[2023-06-04 01:42:05,161: INFO: helper: File already exists of size: ~ 7718 KB]
+[2023-06-04 01:42:05,269: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<]
+[2023-06-04 02:10:59,455: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:10:59,457: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:10:59,458: INFO: helper: created directory at: databox]
+[2023-06-04 02:10:59,459: INFO: helper: created directory at: databox/data_validation]
+[2023-06-04 02:11:22,155: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:11:22,157: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:11:22,157: INFO: helper: created directory at: databox]
+[2023-06-04 02:11:22,158: INFO: helper: created directory at: databox/data_validation]
+[2023-06-04 02:40:37,776: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:40:37,779: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:40:37,781: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:40:37,782: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 32, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:43:00,223: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:43:00,226: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:43:00,227: INFO: helper: created directory at: databox]
+[2023-06-04 02:43:00,227: INFO: helper: created directory at: databox/data_validation]
+[2023-06-04 02:44:10,010: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:44:10,012: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:44:10,013: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:44:10,013: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 32, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:45:06,310: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:45:06,312: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:45:06,313: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:45:06,313: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 32, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:45:31,583: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:45:31,583: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<]
+[2023-06-04 02:46:18,099: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:46:18,101: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:46:18,102: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:46:18,102: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 32, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:46:27,468: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:46:27,469: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:46:27,470: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:46:27,471: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 32, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:46:37,778: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:46:37,780: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:46:37,781: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:46:37,781: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 32, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:47:10,664: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:47:10,666: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:47:10,667: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:47:10,667: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<]
+[2023-06-04 02:47:46,429: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:47:46,431: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:47:46,432: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:47:46,432: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 33, in main
+    data_validation_config = config.get_data_validation_config()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 38, in get_data_validation_config
+    create_directories([config.root_dir])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:48:04,817: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 02:48:04,819: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:48:04,820: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:48:04,820: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_validation.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 33, in main
+    data_validation_config = config.get_data_validation_config()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 38, in get_data_validation_config
+    create_directories([config.root_dir])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:50:14,118: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:50:14,120: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:50:14,121: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:50:14,121: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_ingestion.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 19, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 24, in get_data_ingestion_config
+    create_directories([config.root_dir])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:50:37,726: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:50:37,728: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:50:37,729: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:50:37,729: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_ingestion.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 19, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 24, in get_data_ingestion_config
+    create_directories([config.root_dir])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:51:16,391: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:51:16,392: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:51:16,394: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:51:16,394: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_ingestion.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 19, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 24, in get_data_ingestion_config
+    create_directories([config.root_dir])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:52:20,255: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:52:20,257: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:52:20,258: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:52:20,258: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 18, in <module>
+    data_ingestion.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 19, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 24, in get_data_ingestion_config
+    create_directories([config.root_dir])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:52:30,927: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:52:30,929: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:52:30,930: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:52:30,930: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 17, in <module>
+    data_ingestion.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 19, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 24, in get_data_ingestion_config
+    create_directories([config.root_dir])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:52:51,463: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:52:51,465: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:52:51,466: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:52:51,466: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 17, in <module>
+    data_ingestion.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 18, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:53:39,888: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:54:00,231: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:54:12,134: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:54:41,795: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 02:54:53,918: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:55:05,563: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 02:55:26,472: ERROR: main: Subscripted generics cannot be used with class and instance checks]
+Traceback (most recent call last):
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/main.py", line 17, in <module>
+    data_ingestion.main()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/textSummarizer/pipeline.py", line 18, in main
+    config = ConfigurationManager()
+  File "/home/ziro/Desktop/Isham/Personal/text-summarizer-project/text-summarizer-project/config/helper.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/site-packages/ensure/main.py", line 798, in __call__
+    if not isinstance(value, templ):
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 994, in __instancecheck__
+    return self.__subclasscheck__(type(obj))
+  File "/home/ziro/anaconda3/envs/summary/lib/python3.10/typing.py", line 997, in __subclasscheck__
+    raise TypeError("Subscripted generics cannot be used with"
+TypeError: Subscripted generics cannot be used with class and instance checks
+[2023-06-04 02:56:58,333: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:57:02,942: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 02:57:02,944: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 03:07:23,958: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:07:52,798: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:07:52,800: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 03:08:39,642: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:08:39,694: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:08:39,696: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 03:14:14,482: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:14:14,538: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:14:14,540: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 03:15:05,190: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:15:05,246: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:15:05,247: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 03:15:05,248: INFO: helper: created directory at: databox]
+[2023-06-04 03:15:05,248: INFO: helper: created directory at: databox/data_ingestion]
+[2023-06-04 03:15:07,835: INFO: 3078253932: databox/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DFC8:7D23:10B0C71:13C2F0B:647BC979
+Accept-Ranges: bytes
+Date: Sat, 03 Jun 2023 23:15:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990026-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1685834106.794174,VS0,VE1899
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: 899f70438ec7dd83f4b6a8fb06a44df0c56482a0
+Expires: Sat, 03 Jun 2023 23:20:07 GMT
+Source-Age: 2
+
+]
+[2023-06-04 03:17:00,763: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 03:17:00,765: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:17:00,766: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 03:17:00,766: INFO: helper: created directory at: databox/data_ingestion]
+[2023-06-04 03:17:01,034: INFO: helper: databox/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DFC8:7D23:10B0C71:13C2F0B:647BC979
+Accept-Ranges: bytes
+Date: Sat, 03 Jun 2023 23:17:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990029-FJR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1685834221.938422,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: 2435f661c4a1f219860b2002031717304e7d7758
+Expires: Sat, 03 Jun 2023 23:22:00 GMT
+Source-Age: 115
+
+]
+[2023-06-04 03:17:01,110: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<]
+[2023-06-04 03:17:01,110: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-06-04 03:17:01,112: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 03:17:01,113: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 03:17:01,113: INFO: helper: created directory at: databox/data_validation]
+[2023-06-04 03:17:01,116: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<]

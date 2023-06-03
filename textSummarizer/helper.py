@@ -4,7 +4,7 @@ from os.path import dirname as up
 sys.path.append(os.path.abspath(os.path.join(up(__file__), os.pardir)))
 
 from utils import *
-from textSummarizer.models import *
+from config.models import *
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
@@ -20,7 +20,6 @@ class DataIngestion:
         else:
             logger.info(f"File already exists of size: {get_size(Path(self.config.local_data_file))}")  
 
-        
     
     def extract_zip_file(self):
         """
@@ -32,3 +31,28 @@ class DataIngestion:
         os.makedirs(unzip_path, exist_ok=True)
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
+
+class DataValiadtion:
+    def __init__(self, config: DataValidationConfig):
+        self.config = config
+    
+    def validate_all_files_exist(self)-> bool:
+        try:
+            validation_status = None
+
+            all_files = os.listdir(os.path.join("databox","data_ingestion","samsum_dataset"))
+
+            for file in all_files:
+                if file not in self.config.ALL_REQUIRED_FILES:
+                    validation_status = False
+                    with open(self.config.STATUS_FILE, 'w') as f:
+                        f.write(f"Validation status: {validation_status}")
+                else:
+                    validation_status = True
+                    with open(self.config.STATUS_FILE, 'w') as f:
+                        f.write(f"Validation status: {validation_status}")
+
+            return validation_status
+        
+        except Exception as e:
+            raise e

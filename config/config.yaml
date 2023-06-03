@@ -11,7 +11,6 @@ data_validation:
   STATUS_FILE: databox/data_validation/status.txt
   ALL_REQUIRED_FILES: ["train", "test", "validation"]
 
-
 data_transformation:
   root_dir: databox/data_transformation
   data_path: databox/data_ingestion/samsum_dataset

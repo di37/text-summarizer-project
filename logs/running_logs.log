@@ -1,3 +1,74 @@
 [2023-05-30 18:04:03,862: INFO: main: Logging initialized]
 [2023-05-30 18:06:10,554: INFO: main: Logging initialized.]
 [2023-05-30 19:20:08,623: INFO: main: Logging initialized.]
+[2023-06-03 21:36:33,998: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-03 21:56:21,554: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-03 22:09:32,946: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-03 22:09:32,950: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 00:36:08,056: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 00:36:08,114: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 00:36:08,116: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 00:36:08,117: INFO: helper: created directory at: databox]
+[2023-06-04 00:36:08,118: INFO: helper: created directory at: databox/data_ingestion]
+[2023-06-04 00:40:32,011: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 00:40:32,013: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 00:40:32,014: INFO: helper: created directory at: databox]
+[2023-06-04 00:40:32,014: INFO: helper: created directory at: databox/data_ingestion]
+[2023-06-04 00:40:33,371: INFO: 1434958058: databox/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C948:4820:15B7DF:1F73A9:647BA540
+Accept-Ranges: bytes
+Date: Sat, 03 Jun 2023 20:40:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990029-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1685824833.560882,VS0,VE706
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: ae3dac73b397610364a43e94ee0ea44124723659
+Expires: Sat, 03 Jun 2023 20:45:33 GMT
+Source-Age: 0
+
+]
+[2023-06-04 01:19:06,624: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-04 01:19:06,626: INFO: helper: yaml file: config/config.yaml loaded successfully]
+[2023-06-04 01:19:06,627: INFO: helper: yaml file: config/params.yaml loaded successfully]
+[2023-06-04 01:19:06,627: INFO: helper: created directory at: databox]
+[2023-06-04 01:19:06,627: INFO: helper: created directory at: databox/data_ingestion]
+[2023-06-04 01:19:08,668: INFO: helper: databox/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4F6E:0CB7:3868BB:43AAA1:647BAE4B
+Accept-Ranges: bytes
+Date: Sat, 03 Jun 2023 21:19:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990020-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1685827147.172387,VS0,VE1386
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+X-Fastly-Request-ID: b68b246ef18a251da0864b4110f7ee7768450edb
+Expires: Sat, 03 Jun 2023 21:24:08 GMT
+Source-Age: 1
+
+]
+[2023-06-04 01:19:08,742: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<]

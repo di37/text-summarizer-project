@@ -1,0 +1,30 @@
+artifacts_root: databox
+
+data_ingestion:
+  root_dir: databox/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
+  local_data_file: databox/data_ingestion/summarizer-data.zip
+  unzip_dir: databox/data_ingestion
+
+data_validation:
+  root_dir: databox/data_validation
+  STATUS_FILE: databox/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train", "test", "validation"]
+
+
+data_transformation:
+  root_dir: databox/data_transformation
+  data_path: databox/data_ingestion/samsum_dataset
+  tokenizer_name: google/pegasus-cnn-dailymail
+
+model_trainer:
+  root_dir: databox/model_trainer
+  data_path: databox/data_transformation/samsum_dataset
+  model_ckpt: google/pegasus-cnn-dailymail
+
+model_evaluation:
+  root_dir: databox/model_evaluation
+  data_path: databox/data_transformation/samsum_dataset
+  model_path: databox/model_trainer/pegasus-samsum-model
+  tokenizer_name: databox/model_trainer/tokenizer
+  metric_file_name: databox/model_evaluation/metrics.csv

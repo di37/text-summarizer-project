@@ -4,16 +4,16 @@
 
 1. Update files under config folder:
    - config.yaml
-   - params.yaml
+   - models.py
    - helper.py
 
 2. Update files under textSummarizer folder:
-   - models.py
    - helper.py
    - pipeline.py
 
-3. Update main.py
-4. Update main_fastapi.py
+3. Update params.yaml 
+4. Update main.py
+5. Update main_fastapi.py
 
 
 ## Steps to get started with the project
